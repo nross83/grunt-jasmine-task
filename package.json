@@ -1,0 +1,41 @@
+{
+  "name": "grunt-jasmine-task",
+  "description": "Grunt task for running jasmine specs",
+  "version": "0.9.0",
+  "homepage": "https://github.com/creynder/grunt-jasmine-task",
+  "author": {
+    "name": "Camille Reynders",
+    "email": "info@creynders.be",
+    "url": "http://www.creynders.be"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/creynder/grunt-jasmine-task.git"
+  },
+  "bugs": {
+    "url": "https://github.com/creynder/grunt-jasmine-task/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/creynder/grunt-jasmine-task/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "grunt.js",
+  "bin": "bin/grunt-jasmine-task",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "grunt": "~0.3.8"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.8"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
